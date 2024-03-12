@@ -12,6 +12,11 @@ https://www.virustotal.com/
 Detect malicious code in OLE files (Word, Excel, etc.)
 `oleid filename`
 
+## olevba
+
+Detect malicious VBA macros in OLE files
+`olevba filename`
+
 # Get File Metadata
 
 ## exiftool
