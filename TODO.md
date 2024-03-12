@@ -1,1 +1,0 @@
-- Add notes for xorsearch, per end of LD video.
