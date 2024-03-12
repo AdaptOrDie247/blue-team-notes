@@ -5,7 +5,7 @@ Static analysis tells you the behavior of the malware before you execute it.
 VirusTotal
 https://www.virustotal.com/
 
-# Linux Native Tools
+# Linux Tools
 
 ## exiftool
 
@@ -17,5 +17,10 @@ Get file metadata
 Get strings from file
 `strings filename`
 
+## xorsearch
 
+Search for encoded strings in a file (XOR, ROT, etc.)
+`xorsearch filename searchstring`
 
+Search for embedded executables
+`xorsearch -p filename`
