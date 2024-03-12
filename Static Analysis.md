@@ -1,9 +1,16 @@
 Static analysis tells you the behavior of the malware before you execute it.
 
-# Online Tools
+# Detect Malicious Code
 
-VirusTotal
+## VirusTotal
+
+Search by file hash, etc.
 https://www.virustotal.com/
+
+## oleid
+
+Detect malicious code in OLE files (Word, Excel, etc.)
+`oleid filename`
 
 # Get File Metadata
 
