@@ -5,12 +5,19 @@ Static analysis tells you the behavior of the malware before you execute it.
 VirusTotal
 https://www.virustotal.com/
 
-# Linux Tools
+# Get File Metadata
 
 ## exiftool
 
 Get file metadata
 `exiftool filename`
+
+## olemeta
+
+Get OLE file (Word, Excel, etc.) standard properties
+`olemeta filename`
+
+# Get Raw File Data
 
 ## strings
 
